@@ -515,7 +515,7 @@ $usuario = $stmt->fetch();
                 <a href="#">WhatsApp</a>
             </div>
             <div class="footer-logo">
-                <img src="images/workup-logo.png" alt="WorkUp">
+                <img src="../assets/logo/WorkUP_black.svg" alt="WorkUp">
             </div>
             <div class="footer-copyright">
                 Copyright © 2024 WorkUp Inc. Todos os direitos reservados. WorkUp Brasil Ltda
