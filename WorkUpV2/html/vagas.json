@@ -1,0 +1,125 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "titulo": "Jovem Aprendiz - Itaú",
+      "localizacao": "Goiânia - Goiás, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Jovem Aprendiz",
+      "jornada": "Full time",
+      "empresa": "Itaú",
+      "imagem": "../assets/empresas/itau.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Full Stack Engineer - Apple",
+      "localizacao": "Recife - Pernambuco, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Efetivo",
+      "jornada": "Full time",
+      "empresa": "Apple",
+      "imagem": "../assets/empresas/Apple.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Expert em Negócios - Apple",
+      "localizacao": "Goiânia - Goiás, Brasil",
+      "modalidade": "Home-office",
+      "tipo": "Efetivo",
+      "jornada": "Full time",
+      "empresa": "Apple",
+      "imagem": "../assets/empresas/Apple.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Programa de Estágio - 2º semestre",
+      "localizacao": "São Paulo - São Paulo, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Estágio Superior",
+      "jornada": "Full time",
+      "empresa": "Santander",
+      "imagem": "../assets/empresas/Santander.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Analista de Manutenção",
+      "localizacao": "Gravataí - Rio Grande do Sul, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Efetivo",
+      "jornada": "Full time",
+      "empresa": "General Motors",
+      "imagem": "../assets/empresas/GM.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Programa de Estágio - 2º semestre",
+      "localizacao": "São Caetano do Sul - São Paulo, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Estágio Superior",
+      "jornada": "Full time",
+      "empresa": "General Motors",
+      "imagem": "../assets/empresas/GM.png"
+    },
+    {
+      "id": 7,
+      "titulo": "Assistente de Apoio Técnico",
+      "localizacao": "Sorocaba - São Paulo, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Efetivo",
+      "jornada": "Full time",
+      "empresa": "SENAI",
+      "imagem": "../assets/empresas/senai.png"
+    },
+    {
+      "id": 8,
+      "titulo": "Senior Analytics Engineer",
+      "localizacao": "São Paulo - São Paulo, Brasil",
+      "modalidade": "Híbrido",
+      "tipo": "Efetivo",
+      "jornada": "Full time",
+      "empresa": "Nubank",
+      "imagem": "../assets/empresas/NU.png"
+    },
+    {
+      "id": 9,
+      "titulo": "Associado de Atendimento Virtual ao Cliente",
+      "localizacao": "Fortaleza - Ceará, Brasil",
+      "modalidade": "Home-office",
+      "tipo": "Temporário",
+      "jornada": "Full time",
+      "empresa": "Amazon",
+      "imagem": "../assets/empresas/Amazon.png"
+    },
+    {
+      "id": 10,
+      "titulo": "Estágio em Engenharia",
+      "localizacao": "Campinas - São Paulo, Brasil",
+      "modalidade": "Presencial",
+      "tipo": "Estágio Técnico",
+      "jornada": "Part time",
+      "empresa": "Embraer",
+      "imagem": "../assets/empresas/embraeer.png"
+    },
+    {
+      "id": 11,
+      "titulo": "Designer Freelancer",
+      "localizacao": "Remoto",
+      "modalidade": "Home-office",
+      "tipo": "Freelance",
+      "jornada": "Flexível",
+      "empresa": "Diversos",
+      "imagem": "../assets/empresas/Google.png"
+    },
+    {
+      "id": 12,
+      "titulo": "Programa de Trainee",
+      "localizacao": "São Paulo - São Paulo, Brasil",
+      "modalidade": "Híbrido",
+      "tipo": "Trainee",
+      "jornada": "Full time",
+      "empresa": "Ambev",
+      "imagem": "../assets/empresas/ambev.png"
+    }
+    
+  ]
+}

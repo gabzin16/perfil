@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+@import url('header-styles.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+    
+body {
+    background-color: #fff;
+}
+    
+
+/* __________________ */
+
+.main-container {
+    max-width: 80%;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #FFDE59;
+    object-fit: cover;
+}
+
+.change-photo {
+    background-color: #FFDE59;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.change-photo:hover {
+    background-color: #f0c83c;
+}
+
+.form-container {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #FFDE59;
+}
+
+.upload-curriculo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.upload-curriculo input[type="file"] {
+    display: none;
+}
+
+.upload-curriculo label {
+    background-color: #f0c83c;
+    padding: 0.75rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-curriculo label:hover {
+    background-color: #e1b235;
+}
+
+.save-button {
+    width: 30%;
+    margin: auto;
+    grid-column: 1 / -1;
+    padding: 1rem;
+    background-color: #FFDE59;
+    border: none;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.sair {
+    width: 5%;
+    padding: 10px;
+    background-color: #FFDE59;
+    border: none;
+    border-radius: 25px;
+}
+.sair:hover {
+
+    background-color: #e1b235;
+
+}
+
+.save-button:hover {
+    background-color: #f0c83c;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #f5f5f5;
+    color: #000;
+    padding-top: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 35px;
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px; 
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social p {
+    font-weight: 600;
+    font-size: 16px; 
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 8px 8px;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.social-icons i:hover {
+    color: #82712D;
+}
+
+.footer-bottom {
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .user-form {
+        grid-template-columns: 1fr;
+    }
+   
+}
+
+@media (max-width: 480px) {
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links, .footer-logo, .footer-social {
+        margin: 20px 0;
+    }
+}

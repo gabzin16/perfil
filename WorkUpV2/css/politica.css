@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('header-styles.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+  }
+    
+  body {
+    background-color: #fff;
+  }
+
+/* __________________________________________________________________________ */
+/* BLOCO 1 */
+.bloco1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bloco1 img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.text-bloco1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.text-h4 {
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+/* ______________________________________________________________________________ */
+/* BLOCO 2*/
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+}
+
+h1 {
+    color: #333;
+    padding: 10px;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.letter-w img {
+    padding-left: 40px;
+    position: absolute;
+    left: 1050px;
+    top: 50%;
+    height: 200px;
+    margin: 100px;
+}
+
+.text-content {
+    margin: 20px;
+}
+
+.text-content li:before {
+  content: "•";
+  color: #ffde59;
+  font-weight: bold;
+  position: absolute;
+  left: 45px;
+}
+
+/* ________________________________________________________________________ */
+/* MAPA */
+.container-mapa {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+.column {
+    width: 30%;
+}
+
+h2 {
+    color: #c88f05; /* Cor aproximada do amarelo no exemplo */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.h1-mapa {
+    text-align: center;
+    margin: 15px;
+}
+
+/* ___________________________________________________________ */
+/* FOOTER */
+.footer {
+  background-color: #f5f5f5;
+  color: #000;
+  padding-top: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 35px;
+}
+
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links ul li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px; 
+}
+
+.footer-logo img {
+  width: 150px; 
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social p {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 8px 8px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons i {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.social-icons i:hover {
+  color: #82712D;
+}
+
+.footer-bottom {
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.footer-bottom p {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+}
+  

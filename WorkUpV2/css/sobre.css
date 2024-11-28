@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('header-styles.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+    
+  body {
+    background-color: #fff;
+  }
+  
+
+
+/* TEXTO 1 */
+.text-container {
+    /* max-width: 800px; */
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.text-container h1 {
+    text-align: start;
+    font-size: 35px;
+    /* margin-bottom: 20px; */
+}
+
+.text-container h2 {
+    font-size: 35px;
+    /* margin-top: 30px; */
+    text-align: end;
+}
+
+.text-container p {
+    line-height: 1.5;
+    /* margin-bottom: 15px; */
+    text-align: justify;
+    padding: 10px;
+}
+
+.text-mission {
+    text-align: end;
+}
+
+.text-container .highlight {
+    color: #a7894d;
+    font-weight: bold;
+}
+
+/* ______________________________________________________________________ */
+/* BANNER */
+.banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/*VISAO E VALORES */
+.vv {
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.vv h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+}
+
+.vv p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+strong {
+    color: #82712D;
+}
+
+/* ______________________________________________________________________ */
+/* BENEFICIOS */
+h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.beneficios p {
+    text-align: justify;
+}
+
+.beneficios h2 {
+    text-align: center;
+    color: #82712D;
+}
+
+/* BOX 1 */
+.box {
+    background-color: #F6ECD6;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; 
+    border: 1px solid #764C34;
+}
+
+.box h2 {
+    color: #545454;
+}
+
+.box p {
+    color: #545454;
+}
+
+.icon {
+    color: #a7894d;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.highlight-box {
+    font-weight: bold;
+    color: #a7894d;
+}
+
+.beneficios-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Duas colunas de tamanho igual */
+  gap: 20px; /* Espaço entre as colunas (opcional) */
+}
+
+/* ___________________________________________________________ */
+/* FOOTER */
+.footer {
+    background-color: #f5f5f5;
+    color: #000;
+    padding-top: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 35px;
+  }
+  
+  .footer-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px; 
+  }
+  
+  .footer-logo img {
+    width: 150px; 
+  }
+  
+  .footer-social {
+    text-align: center;
+  }
+  
+  .footer-social p {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .social-icons {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons li {
+    margin: 8px 8px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }
+  
+  .social-icons i:hover {
+    color: #82712D;
+  }
+  
+  .footer-bottom {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+  }
+
+  

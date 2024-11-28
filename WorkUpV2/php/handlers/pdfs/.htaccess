@@ -1,0 +1,5 @@
+# Permitir apenas PDFs
+<FilesMatch "\.(?i:pdf)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>

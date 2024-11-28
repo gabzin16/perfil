@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkUp - Cadastro</title>
+    <link rel="stylesheet" href="../css/cadastra.css">
+    <link rel="stylesheet" href="../css/header-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../assets/logo/W_favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header-content">
+        <div class="logo-header">
+            <a href="home.html">
+                <img src="../assets/logo/WorkUP_black.svg" alt="Logo WorkUp">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="vagas.html">Vagas</a></li>
+                <li><a href="perguntas_frequentes.html">Central de atendimento</a></li>
+                <li><a href="login.html"><i class="fas fa-user"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+  <br>
+  
+<!-- __________________ -->
+    <main class="main-container">
+        <a href="home.html"><button type="submit" class="sair">Sair</button></a>
+        <section class="profile-picture">
+            <div class="picture-container">
+                <img src="#" alt="" class="profile-img">
+                <button class="change-photo">Alterar foto</button>
+            </div>
+        </section>
+
+        <section class="form-container">
+            <form action="#" method="post" class="user-form">
+                <div class="form-group">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco" required>
+                </div>
+                <div class="form-group">
+                    <label for="atuacao">Área de atuação:</label>
+                    <input type="text" id="atuacao" name="atuacao" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone_contato">Telefone para contato:</label>
+                    <input type="tel" id="telefone_contato" name="telefone_contato" required>
+                </div>
+                <div class="form-group">
+                    <label for="perfil">Perfil:</label>
+                    <select id="perfil" name="perfil" required>
+                        <option value="empregador">Empregador</option>
+                        <option value="candidato">Candidato</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo" required>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="nascimento">Data de nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </div>
+                <div class="form-group">
+                    <label for="curriculo">Currículo:</label>
+                    <div class="upload-curriculo">
+                        <input type="file" id="curriculo" name="curriculo" accept="application/pdf">
+                        <label for="curriculo"><i class="fa-solid fa-image"></i></label>
+                    </div>
+                </div>
+                <button type="submit" class="save-button">Salvar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="politica.html">Política de privacidade</a></li>
+                    <li><a href="#">Avisos legais</a></li>
+                    <li><a href="#">Mapa do site</a></li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <img src="../assets/logo/w_transp.svg" alt="Logo W">
+            </div>
+            <div class="footer-social">
+                <p>Nossas redes sociais:</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 WorkUp Inc. Todos os direitos reservados. WorkUp Brasil Ltda</p>
+        </div>
+    </footer>
+</body>
+</html>

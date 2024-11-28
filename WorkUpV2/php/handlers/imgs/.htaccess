@@ -1,0 +1,5 @@
+# Permitir apenas imagens
+<FilesMatch "\.(?i:(jpg|jpeg|png|gif))$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
