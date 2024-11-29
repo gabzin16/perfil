@@ -13,48 +13,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
-header {
-    background-color: #FFE814;
-    padding: 15px 20px;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
 
-.header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    color: #000;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.search-bar {
-    flex: 1;
-    max-width: 400px;
-    margin: 0 20px;
-}
-
-.search-bar input {
-    width: 100%;
-    padding: 8px 15px;
-    border: none;
-    border-radius: 20px;
-    font-size: 14px;
-}
-
-.header-nav a {
-    color: #000;
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 14px;
-}
 
 /* Main Content */
 .main-container {
@@ -106,16 +65,7 @@ header {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.voltar-btn {
-    display: inline-block;
-    background: #FFE814;
-    padding: 5px 15px;
-    border-radius: 15px;
-    color: #000;
-    text-decoration: none;
-    font-size: 14px;
-    margin-bottom: 20px;
-}
+
 
 /* Profile Photo */
 .profile-photo {
@@ -212,16 +162,16 @@ header {
 }
 
 .btn-primary {
-    background-color: #FFE814;
+    background-color: #ffde59;
     color: #000;
 }
 
 .btn-primary:hover {
-    background-color: #FFD700;
+    background-color: #ffde59;
 }
 
 .adicionar-btn {
-    background: #FFE814;
+    background: #ffde59;
     border: none;
     padding: 6px 12px;
     border-radius: 4px;
@@ -303,7 +253,7 @@ header {
 
 /* Currículo Area */
 .curriculo-area {
-    background: #FFE814;
+    background: #ffde59;
     width: 150px;
     height: 150px;
     border-radius: 8px;
@@ -317,7 +267,7 @@ header {
 }
 
 .curriculo-area:hover {
-    background-color: #FFD700;
+    background-color: #ffde59;
 }
 
 .curriculo-area label {

@@ -51,18 +51,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- CSS -->
      <link rel="stylesheet" href="./css/cadastro.css">
+     <link rel="stylesheet" href="../css/header-styles.css">
      
     <title>Cadastre-se - WorkUp</title>
 
 </head>
 <body>
-    <header>
-        <a href="index.php" class="logo">WorkUp</a>
-        <nav class="nav-links">
-            <a href="#">Vagas</a>
-            <a href="#">Central de atendimento</a>
+
+   <!-- HEADER -->
+<header class="header-content">
+        <div class="logo-header">
+            <a href="../html/home.html">
+                <img src="../assets/logo/WorkUP_black.svg" alt="Logo WorkUp">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../html/vagas.html">Vagas</a></li>
+                <li><a href="../phpperguntas_frequentes.php">Central de atendimento</a></li>
+                <a href="./logout.php"><i  class="fa-solid fa-arrow-right-from-bracket" style="color: #000000;"></i></a>
+            </ul>
         </nav>
     </header>
+    <br>
+
+    <!-- ______________________________________________________ -->
 
     <div class="main-content">
         <div class="cadastro-container">
